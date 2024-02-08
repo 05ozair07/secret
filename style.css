@@ -26,10 +26,13 @@ body {
   
   position: absolute;
 }
+.tt{
+  text-decoration: none;
+}
 
 .paper.heart {
   position: relative;
-  width: 200px;
+  width: 300px;
   height: 200px;
   padding: 0;
   border-radius: 50%;
@@ -66,8 +69,8 @@ p {
   font-family: 'Zeyada';
   font-size: 50px;
   color: rgb(0,0,100);
-  opacity: 0.75;
+  opacity: 0.90;
   user-select: none;
   
-  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+  filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
